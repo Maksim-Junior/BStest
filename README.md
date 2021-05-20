@@ -1,3 +1,3 @@
 1. Меня зовут Максим, мне 20 лет. До 2020 года обучался в филиале БГУИР "Минский радиотехнический колледж", по специальности "Программное обеспечение информационных технологий". Окончил курсы "TechMeSkills" по направлению python. Принимал участие в роли волонтера на вторых европейских играх в Минске. Помимо программирования, играю в настольный теннис и волейбол.
 
-2. At first I tried to learn Java. But this language seemed difficult to me. Later I found out that my friend is studying python. I also decided to try learning it. This language was not difficult for me and I continued to study it. This is how my journey with python began
+2. I found out that my friend is studying python. I also decided to try to study it. I really liked this language, and I continued to study it. This is how my journey with Python began.
