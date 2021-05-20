@@ -2,6 +2,7 @@ import random
 import requests
 from datetime import datetime
 
+
 # Task 3(a)
 # CRUD operation tests for testing endpoint - user. Pet swagger: https://petstore.swagger.io/.
 # PUT method doesn't work.The information is not updated. The response status is always 200...
