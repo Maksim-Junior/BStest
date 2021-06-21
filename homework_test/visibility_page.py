@@ -1,6 +1,6 @@
 from selenium.common.exceptions import ElementClickInterceptedException
 
-from .baseApp import Base
+from baseApp import Base
 from selenium.webdriver.common.by import By
 
 
@@ -26,12 +26,7 @@ class SearchHelpVisibility(Base):
         return self.find_element(Locators.BUTTON_ZERO_WIDTH, time=2)
 
     def check_button_overlapped(self):
-        try:
-            self.find_element(Locators.BUTTON_OVERLAPPED, time=2).click()
-            answer = True
-        except ElementClickInterceptedException:
-            answer = False
-        return answer
+        return self.find_element(Locators.BUTTON_OVERLAPPED, time=2).click()
 
     def check_button_zero_opacity(self):
         return self.find_element(Locators.BUTTON_ZERO_OPACITY, time=2)

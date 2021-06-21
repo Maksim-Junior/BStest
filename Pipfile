@@ -2,11 +2,15 @@
 url = "https://pypi.org/simple"
 verify_ssl = true
 name = "pypi"
+PYTHONPATH=homework_test
 
 [packages]
 pytest = "*"
 requests = "*"
 selenium = "*"
+pytest-xdist = "*"
+nose = "*"
+nose-parallel = "*"
 
 [dev-packages]
 

@@ -1,6 +1,6 @@
 import time
 
-from .baseApp import Base
+from baseApp import Base
 from selenium.webdriver.common.by import By
 
 
@@ -14,5 +14,4 @@ class SearchHelpClientDelay(Base):
         return self.find_element(Locators.BUTTON, time=2).click()
 
     def wait_to_text(self):
-        time.sleep(15)
-        return self.find_element(Locators.TEXT, time=2)
+        return self.find_element(Locators.TEXT, time=15)
