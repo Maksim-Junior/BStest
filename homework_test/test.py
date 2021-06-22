@@ -27,10 +27,11 @@ capabilities = {
 
 class PlayGround(unittest.TestCase):
     def setUp(self):
-        self.driver = webdriver.Remote(
-            command_executor="http://0.0.0.0:4444/wd/hub",
-            desired_capabilities=capabilities
-        )
+        self.driver = webdriver.Chrome()
+        # self.drivers = webdriver.Remote(
+        #   command_executor="http://0.0.0.0:4444/wd/hub",
+        #  desired_capabilities=capabilities
+        # )
         self.driver.implicitly_wait(10)
 
     def test_mouseover(self):
