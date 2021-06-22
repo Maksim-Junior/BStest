@@ -15,10 +15,22 @@ from selenium.common.exceptions import ElementClickInterceptedException
 import unittest
 from selenium import webdriver
 
+capabilities = {
+    "browserName": "chrome",
+    "browserVersion": "91.0",
+    "selenoid:options": {
+        "enableVNC": True,
+        "enableVideo": False
+    }
+}
+
 
 class PlayGround(unittest.TestCase):
     def setUp(self):
-        self.driver = webdriver.Chrome()
+        self.driver = webdriver.Remote(
+            command_executor="http://0.0.0.0:4444/wd/hub",
+            desired_capabilities=capabilities
+        )
         self.driver.implicitly_wait(10)
 
     def test_mouseover(self):
