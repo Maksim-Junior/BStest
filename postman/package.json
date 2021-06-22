@@ -1,0 +1,15 @@
+{
+  "name": "postman",
+  "version": "1.0.0",
+  "description": "Postman tests",
+  "directories": {
+    "homework_test": "postman"
+  },
+  "scripts": {
+    "api-tests": "newman run postman/PET_TESTS.postman_collection.json"
+  },
+  "author": "Maksim Kurakevich",
+  "dependencies": {
+    "newman": "^3.5.2"
+  }
+}
