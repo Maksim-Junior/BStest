@@ -1,5 +1,4 @@
 from selenium.common.exceptions import TimeoutException
-
 from click_page import SearchClick
 from loaddelay_page import SearchLoadDelay
 from verifytext_page import SearchVerifyText

@@ -3,7 +3,6 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 name = "pypi"
 
-
 [packages]
 pytest = "*"
 requests = "*"
@@ -11,6 +10,8 @@ selenium = "*"
 pytest-xdist = "*"
 nose = "*"
 nose-parallel = "*"
+pydantic = "*"
+locust = "*"
 
 [dev-packages]
 
