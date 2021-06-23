@@ -1,14 +1,14 @@
 from selenium.common.exceptions import TimeoutException
-from click_page import SearchClick
-from loaddelay_page import SearchLoadDelay
-from verifytext_page import SearchVerifyText
-from visibility_page import SearchHelpVisibility
-from classattr_page import SearchHelpClassAttr
-from clientdelay_page import SearchHelpClientDelay
-from dynamictable_page import SearchDynamicTable
-from sampleapp_page import SearchSampleApp
-from hiddenlayers_page import SearchHiddenLayers
-from mouseover_page import SearchMouseOver
+from .click_page import SearchClick
+from .loaddelay_page import SearchLoadDelay
+from .verifytext_page import SearchVerifyText
+from .visibility_page import SearchHelpVisibility
+from .classattr_page import SearchHelpClassAttr
+from .clientdelay_page import SearchHelpClientDelay
+from .dynamictable_page import SearchDynamicTable
+from .sampleapp_page import SearchSampleApp
+from .hiddenlayers_page import SearchHiddenLayers
+from .mouseover_page import SearchMouseOver
 from selenium.common.exceptions import ElementClickInterceptedException
 
 import unittest
