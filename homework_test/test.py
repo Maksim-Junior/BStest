@@ -23,10 +23,15 @@ capabilities = {
     }
 }
 
+driver_location = "/usr/bin/chromedriver"
+binary_location = "usr/bin/google-chrome"
+option = webdriver.ChromeOptions()
+option.binary_location = binary_location
+
 
 class PlayGround(unittest.TestCase):
     def setUp(self):
-        self.driver = webdriver.Chrome()
+        self.driver = webdriver.Chrome(executable_path=driver_location, chrome_options=option)
         # self.drivers = webdriver.Remote(
         #   command_executor="http://0.0.0.0:4444/wd/hub",
         #  desired_capabilities=capabilities
