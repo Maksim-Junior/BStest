@@ -24,7 +24,7 @@ capabilities = {
 }
 
 driver_location = "/usr/bin/chromedriver"
-binary_location = "usr/bin/google-chrome"
+binary_location = "/usr/bin/google-chrome"
 option = webdriver.ChromeOptions()
 option.add_argument('--headless')
 option.add_argument('--no-sandbox')
