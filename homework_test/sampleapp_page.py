@@ -1,4 +1,4 @@
-from baseApp import Base
+from .baseApp import Base
 from selenium.webdriver.common.by import By
 from random import randint
 

@@ -1,6 +1,4 @@
-from selenium.common.exceptions import ElementClickInterceptedException
-
-from baseApp import Base
+from .baseApp import Base
 from selenium.webdriver.common.by import By
 
 
