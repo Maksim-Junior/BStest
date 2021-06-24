@@ -12,6 +12,7 @@ nose = "*"
 nose-parallel = "*"
 pydantic = "*"
 locust = "*"
+allure-pytest = "*"
 
 [dev-packages]
 
